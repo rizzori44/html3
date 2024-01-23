@@ -1,0 +1,87 @@
+.a {
+  text-align: center;
+}
+
+body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.black {
+ display: block;
+  margin-left: 107px;
+  margin-right: 106px;
+  vertical-align: middle;
+  padding: 0px; 
+  border: 1px solid black; 
+  border-radius: 2px; 
+  box-shadow: 0 0 10px rgba(1, 0, 0, 0.8); 
+}
+
+
+li {
+  border-right: 1px solid #bbb;
+  background-image: url("333.jpg");
+  text-align: center;
+}
+
+li:last-child {
+  border-right: none;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  width: 320px;
+  padding: 6px;
+  text-decoration: none;
+  background-image: url("ab.jpg");
+  font-family: 'Segoe UI Semibold', sans-serif;
+  font-weight: bolder;
+}
+
+li a:hover {
+  background-image: url("9.jpg");
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+figure {
+  position: relative;
+  text-align: right;
+}
+
+.image-text {
+  position: absolute;
+  top: 20px;
+  right: 140px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-image: url("9.jpg");
+  padding: 27px;
+  border-radius: 100px;
+  
